@@ -1,0 +1,36 @@
+
+# Basic Chatbot
+
+# Function to handle the chatbot's replies
+def chatbot():
+
+    print("Chatbot: Hello! I am a chatbot.")
+    print("Chatbot: Type 'bye' to end the conversation.")
+
+    # Keep chatting until the user says bye
+    while True:
+
+        # Take input from the user
+        user_input = input("You: ")
+
+        # Convert the input to lowercase
+        user_input = user_input.lower()
+
+        # Check what the user said
+        if user_input == "hello":
+            print("Chatbot: Hi!")
+            print("Chatbot: How can i help you?")
+
+        elif user_input == "how are you":
+            print("Chatbot: I'm fine, thanks!")
+
+        elif user_input == "bye":
+            print("Chatbot: Goodbye!")
+            break
+
+        else:
+            print("Chatbot: Sorry, I don't understand that.")
+
+
+# Start the chatbot
+chatbot()
