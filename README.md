@@ -27,7 +27,7 @@ It also doesn't care about capital letters, so `Hello`, `HELLO` and `hello` all 
 1. Make sure you have Python 3 installed.
 2. Download or clone this repo:
 
-git clone <your-repo-link-here>
+git clone <https://github.com/AryanSharma1105/Codealpha_Basic_Chatbot.git>
 
 3. Open the folder in your terminal and run:
 
@@ -66,5 +66,6 @@ I'm still learning, so if you have tips or ideas to make this better, I'd love t
 
 Thanks for checking it out! ⭐ A star on the repo would make my day.
 
+Author:-
 **Aryan Sharma**
 GitHub: [@AryanSharma1105](https://github.com/AryanSharma1105)
